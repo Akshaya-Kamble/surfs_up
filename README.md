@@ -39,23 +39,30 @@ The following steps explain how the data is accessed,filtered and visualized.
 
 2. create engine function - this lets us query a SQLite database.
 ```
-	engine = create_engine("sqlite:///hawaii.sqlite") ```
+engine = create_engine("sqlite:///hawaii.sqlite")
+```
+
 
 3. automap_base() function - to reflect our existing database in SQLite into a new model.
 ```
-	Base = automap_base() ```
+	Base = automap_base() 
+```
 
 4. prepare() function - reflect the schema of our SQLite tables into our code and create mappings.
 ```
-	Base.prepare(engine, reflect=True) ```
+	Base.prepare(engine, reflect=True	
+```
 
 5. Reference the measurement and station classes by assigning variables measurement and station.
 ``` 
 	Measurement = Base.classes.measurement
-	Station = Base.classes.station ```
+	Station = Base.classes.station 	
+```
 
 6. Use an SQLAlchemy Session to query our database.
-``` 	session = Session(engine) ```
+``` 	
+	session = Session(engine) 
+```
 
 7. Using session.query we can now get the june and December temperatures from the SQLite database and save it to a variable.
 
@@ -91,3 +98,6 @@ precipitation_dec_df.describe()
 
 ```
 [December precipitation graph][2]
+
+[1][https://github.com/Akshaya-Kamble/surfs_up/blob/main/Reference%20images/1.PNG]
+[2][https://github.com/Akshaya-Kamble/surfs_up/blob/main/Reference%20images/2.PNG]
