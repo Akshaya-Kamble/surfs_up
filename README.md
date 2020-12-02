@@ -39,7 +39,7 @@ The following steps explain how the data is accessed,filtered and visualized.
 
 2. create engine function - this lets us query a SQLite database.
 ```
-engine = create_engine("sqlite:///hawaii.sqlite")
+	engine = create_engine("sqlite:///hawaii.sqlite")
 ```
 
 
@@ -99,5 +99,5 @@ precipitation_dec_df.describe()
 ```
 [December precipitation graph][2]
 
-[1][https://github.com/Akshaya-Kamble/surfs_up/blob/main/Reference%20images/1.PNG]
-[2][https://github.com/Akshaya-Kamble/surfs_up/blob/main/Reference%20images/2.PNG]
+[1]:https://github.com/Akshaya-Kamble/surfs_up/blob/main/Reference%20images/1.PNG
+[2]:https://github.com/Akshaya-Kamble/surfs_up/blob/main/Reference%20images/2.PNG
