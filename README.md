@@ -83,7 +83,7 @@ for p in precipitation_june :
 precipitation_june_df = pd.DataFrame(precipitation_june_list)
 precipitation_june_df.describe()
 ```
-[June precipitation graph][1]
+![June precipitation graph](https://github.com/Akshaya-Kamble/surfs_up/blob/main/Reference%20images/1.PNG)
 
 ### Additional query 2 - Precipitation data for the month of December
 We have the query data saved in a variable called precipitation_dec, then we convert this variable to a list named precipitation_dec_list and finally convert this list to a pandas DataFrame called precipitation_dec_df to get statistical and visulaziation data
@@ -97,7 +97,7 @@ precipitation_dec_df = pd.DataFrame(precipitation_dec_list)
 precipitation_dec_df.describe()
 
 ```
-[December precipitation graph][2]
+![December precipitation graph](https://github.com/Akshaya-Kamble/surfs_up/blob/main/Reference%20images/2.PNG)
 
 [1]:https://github.com/Akshaya-Kamble/surfs_up/blob/main/Reference%20images/1.PNG
 [2]:https://github.com/Akshaya-Kamble/surfs_up/blob/main/Reference%20images/2.PNG
